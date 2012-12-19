@@ -1,0 +1,16 @@
+OASISFormat: 0.3
+Name:        tiger
+Version:     0.1.0
+Synopsis:    Tiger cryptographic hash function bindings
+Authors:     Sam Thomas <s@ghost.sh>
+License:     BSD3
+Plugins:     META (0.3), StdFiles (0.3), DevFiles (0.3)
+
+Library tiger
+   Path:        src/
+   BuildTools:  ocamlbuild
+   FindlibName: tiger
+   Modules:     Tiger
+   CSources:    tiger_sboxes.c, tiger.c, tiger_stub.c
+   CCOpt:       -O4 -Wno-strict-aliasing -Wall -Wformat-security -fPIC -DPIC
+  

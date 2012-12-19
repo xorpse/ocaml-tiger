@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: 68ea33e057b48689898a86baca9d5b5e)
+version = "0.1.0"
+description = "Tiger cryptographic hash function bindings"
+archive(byte) = "tiger.cma"
+archive(byte, plugin) = "tiger.cma"
+archive(native) = "tiger.cmxa"
+archive(native, plugin) = "tiger.cmxs"
+exists_if = "tiger.cma"
+# OASIS_STOP
+

@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: f87966d47ea3c1ba25fc3868e92057e6) *)
+Authors of tiger
+Sam Thomas <s@ghost.sh>
+(* OASIS_STOP *)
