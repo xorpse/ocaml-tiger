@@ -1,6 +1,6 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 60fa3f8fd4a62f0788def6b1a40d50f1) *)
-This is the INSTALL file for the tiger distribution.
+(* DO NOT EDIT (digest: a3ba07ae8f570dff472c069716a2dc4e) *)
+This is the INSTALL file for the ocaml-tiger distribution.
 
 This package uses OASIS to generate its build system. See section OASIS for
 full information. 

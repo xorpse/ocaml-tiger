@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: f87966d47ea3c1ba25fc3868e92057e6) *)
-Authors of tiger
+(* DO NOT EDIT (digest: ffd0b666e295cb245c74d4ad6451f6a2) *)
+Authors of ocaml-tiger
 Sam Thomas <s@ghost.sh>
 (* OASIS_STOP *)

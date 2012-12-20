@@ -1,6 +1,6 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 9549669d0007c6aca949634874941eac) *)
-This is the README file for the tiger distribution.
+(* DO NOT EDIT (digest: 306fe2868ab0dad58cc7510566150467) *)
+This is the README file for the ocaml-tiger distribution.
 
 Tiger cryptographic hash function bindings
 

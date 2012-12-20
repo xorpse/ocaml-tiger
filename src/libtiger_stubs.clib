@@ -1,6 +1,6 @@
 # OASIS_START
-# DO NOT EDIT (digest: 84858ac5ea249a39c69f1ebf9060980e)
-tiger_sboxes.o
-tiger.o
+# DO NOT EDIT (digest: 0757d5219e96c6785aa84d538ad42589)
 tiger_stub.o
+tiger_sboxes.o
+tiger_main.o
 # OASIS_STOP

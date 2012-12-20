@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: aa69ca1b927343bd725fe9e4261e6349)
+# DO NOT EDIT (digest: f10ebb53880d4952459b9aae33ec53c5)
 # Ignore VCS directories, you can use the same kind of rule outside 
 # OASIS_START/STOP if you want to exclude directories that contains 
 # useless stuff for the build process
@@ -16,8 +16,13 @@
 # Library tiger
 "src/tiger.cmxs": use_tiger
 <src/*.ml{,i}>: oasis_library_tiger_ccopt
-"src/tiger_sboxes.c": oasis_library_tiger_ccopt
-"src/tiger.c": oasis_library_tiger_ccopt
 "src/tiger_stub.c": oasis_library_tiger_ccopt
+"src/tiger_sboxes.c": oasis_library_tiger_ccopt
+"src/tiger_main.c": oasis_library_tiger_ccopt
+<src/tiger.{cma,cmxa}>: oasis_library_tiger_cclib
+"src/libtiger_stubs.lib": oasis_library_tiger_cclib
+"src/dlltiger_stubs.dll": oasis_library_tiger_cclib
+"src/libtiger_stubs.a": oasis_library_tiger_cclib
+"src/dlltiger_stubs.so": oasis_library_tiger_cclib
 <src/tiger.{cma,cmxa}>: use_libtiger_stubs
 # OASIS_STOP
