@@ -13,4 +13,4 @@ Library tiger
    Modules:     Tiger
    CSources:    tiger_stub.c, tiger_sboxes.c, tiger_main.c
    CCOpt:       -O4 -Wno-strict-aliasing -Wall -Wformat-security
-   CCLib:       -L$(standard_library) -lcamlrun -ldl
+   CCLib:       -ldl
